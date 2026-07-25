@@ -1,7 +1,7 @@
 # Geospatial CVRP Optimization for Institutional Waste Collection Using Google OR-Tools and Directed Road-Network Distances
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%252B-blue.svg)](https://www.python.org/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Optimization: Google OR-Tools](https://img.shields.io/badge/Optimization-Google%20OR%20Tools-orange.svg)](https://developers.google.com/optimization)
 
 This repository contains the complete reproducibility package for the research paper: **"Geospatial CVRP Optimization for Institutional Waste Collection Using Google OR-Tools and Directed Road-Network Distances"**. 
@@ -13,17 +13,18 @@ The study models the multi-campus institutional waste collection network of Univ
 ## Repository Structure
 
 ```text
-├── data/
-│   └── gunadarma_drive_network.graphml  # Frozen OpenStreetMap driving network snapshot
 ├── figures/
 │   ├── peak_route_interactive.html      # Interactive Map for the Peak (Multi-Trip) Scenario
-│   └── normal_route_interactive.html    # Interactive Map for the Normal Scenario
+│   ├── peak_route_network_600dpi.png    # High-resolution static route map (600 DPI)
+│   ├── peak_route_network.pdf           # Vector PDF static map
+│   └── peak_route_geometry.geojson      # Exported route geometries
 ├── results/
-│   ├── road_distance/                   # Directed distance matrices and snapping audits
-│   ├── gls_experiments/                 # 30-run repeatability summaries and run-level logs
-│   └── exact_validation/                # Held-Karp dynamic programming exact comparison files
-├── VRP_Solver_revised.py                # Core CVRP solver script using Google OR-Tools
-├── Road_Distance_revised.py             # OSMnx directed road-distance matrix generator
-├── exact_validation.py                  # Exact dynamic-programming optimization benchmark script
-├── run_gls_experiments.py               # Script for executing 30 repeated GLS runs (stability analysis)
+│   ├── road_distance/                   # Directed distance matrices, snapping audits, and metadata
+│   ├── gls_experiments/                 # 30-run repeatability summaries, run-level logs, and frequencies
+│   ├── exact_validation/                # Held-Karp dynamic programming exact comparison files and summary
+│   └── vrp_solver_results.json          # Core optimization solver output across scenarios
+├── Road_Distance_revised.py             # OSMnx directed road-distance matrix generator and auditor
+├── VRP_Solver_revised.py                # Core CVRP solver script using Google OR-Tools (Normal, Buffered, Peak)
+├── exact_validation.py                  # Exact dynamic-programming optimization benchmark script (Held-Karp)
+├── run_gls_experiments.py               # Script for executing 30 repeated GLS runs (stability & repeatability analysis)
 └── Route_Visualization_Peak_revised.py  # Script for generating static and interactive map visualizations
