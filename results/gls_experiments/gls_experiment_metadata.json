@@ -1,0 +1,22 @@
+{
+  "experiment_name": "Gunadarma CVRP GLS repeated-run analysis",
+  "experiment_started_utc": "2026-07-15T07:32:36.826786+00:00",
+  "experiment_finished_utc": "2026-07-15T07:47:38.949868+00:00",
+  "elapsed_wall_clock_seconds": 902.123082,
+  "scenarios": [
+    "normal",
+    "buffered",
+    "peak"
+  ],
+  "runs_per_scenario": 30,
+  "time_limit_seconds_per_run": 10,
+  "python_version": "3.13.11",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python_executable": "C:\\Users\\DELL XPS\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe",
+  "method": {
+    "solver": "Google OR-Tools Routing Solver",
+    "first_solution_strategy": "PATH_CHEAPEST_ARC",
+    "local_search_metaheuristic": "GUIDED_LOCAL_SEARCH"
+  },
+  "scientific_interpretation": "These experiments quantify repeatability and solution variability. They do not provide an optimality certificate. Optimality must be evaluated separately against an exact method."
+}

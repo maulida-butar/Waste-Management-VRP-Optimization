@@ -1,0 +1,4 @@
+﻿scenario,exact_status,exact_method,number_of_customers,configured_trips,total_demand_boxes,exact_distance_m,exact_distance_km,gls_best_distance_km,optimality_gap_percent,gls_matches_exact_optimum
+normal,EXACT_OPTIMUM,Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning,12,1,126,144319,144.319,144.319,0.0,True
+buffered,EXACT_OPTIMUM,Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning,12,1,152,144319,144.319,144.319,0.0,True
+peak,EXACT_OPTIMUM,Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning,12,2,191,148337,148.337,148.337,0.0,True

@@ -1,0 +1,69 @@
+{
+  "generated_at_utc": "2026-07-15T09:45:46.692091+00:00",
+  "project": "Universitas Gunadarma institutional waste-collection CVRP",
+  "method": "Directed shortest-path distance on a frozen OSM driving network",
+  "edge_weight": "length",
+  "edge_weight_units": "metres",
+  "optimization_conversion": "Each full-precision path length is rounded to the nearest integer metre.",
+  "graph": {
+    "source": "existing_graphml",
+    "graphml_path": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\data\\gunadarma_drive_network.graphml",
+    "graphml_sha256": "1032655612abe6eb7e149f3692d357e2cd4d3130a7d79d6d1245b19e3c697327",
+    "network_type": "drive",
+    "raw_crs": "epsg:4326",
+    "projected_crs": "EPSG:32748",
+    "directed": true,
+    "raw_node_count": 249348,
+    "raw_edge_count": 593408
+  },
+  "bbox": {
+    "west_south_east_north": [
+      106.58554334227392,
+      -6.403649813990326,
+      107.05297516022837,
+      -6.166973702159097
+    ],
+    "padding_degrees": 0.03
+  },
+  "snapping": {
+    "method": "nearest road-network node after graph projection",
+    "maximum_allowed_snap_distance_m": 500.0,
+    "maximum_observed_snap_distance_m": 118.57871801760575,
+    "duplicate_snapped_nodes": false
+  },
+  "matrix": {
+    "node_count_including_depot": 13,
+    "collection_node_count": 12,
+    "directed": true,
+    "directed_non_diagonal_pairs": 156,
+    "unordered_node_pairs": 78,
+    "unordered_pairs_asymmetric_over_1m": 77,
+    "mean_absolute_asymmetry_m": 1182.6646692802417,
+    "maximum_absolute_asymmetry_m": 6613.3509139387825
+  },
+  "reference_comparison": {
+    "reference_solver_path": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\VRP_Solver_revised.py",
+    "reference_variable": "DISTANCE_MATRIX_KM",
+    "tolerance_m": 1.0,
+    "matrix_cells_compared": 169,
+    "cells_outside_tolerance": 65,
+    "maximum_absolute_difference_m": 30.99719371572428,
+    "mean_absolute_difference_m": 3.3229844035338076,
+    "exact_snapshot_match": false
+  },
+  "software": {
+    "python_version": "3.13.11",
+    "osmnx_version": "2.1.0",
+    "networkx_version": "3.6.1",
+    "pandas_version": "3.0.1"
+  },
+  "outputs": {
+    "kilometre_csv": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\road_distance_matrix_km_full.csv",
+    "metre_csv": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\road_distance_matrix_m.csv",
+    "json": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\road_distance_matrix.json",
+    "python_literal": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\road_distance_matrix_python.txt",
+    "snapping_audit": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\campus_snapping_audit.csv",
+    "directed_pair_audit": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\directed_pair_audit.csv",
+    "reference_comparison": "C:\\Users\\DELL XPS\\Documents\\CoretCoretan\\JEMSS\\results\\road_distance\\matrix_reference_comparison.csv"
+  }
+}

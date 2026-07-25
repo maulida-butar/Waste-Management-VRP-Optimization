@@ -1,0 +1,4 @@
+﻿scenario,rank,route_signature,frequency,percentage_of_feasible_runs
+normal,1,D -> E -> G -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D,30,100.0
+buffered,1,D -> E -> G -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D,30,100.0
+peak,1,D -> F5 -> D || D -> G -> E -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> D,30,100.0

@@ -1,0 +1,252 @@
+[
+  {
+    "scenario": "normal",
+    "status": "FEASIBLE",
+    "total_demand_boxes": 126,
+    "capacity_per_trip_boxes": 180,
+    "configured_trip_indices": 1,
+    "used_trips": 1,
+    "total_distance_km": 144.319,
+    "trips": [
+      {
+        "trip_id": 1,
+        "route_indices": [
+          0,
+          1,
+          2,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "E",
+          "G",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> E -> G -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D",
+        "distance_km": 144.319,
+        "load_boxes": 126,
+        "capacity_boxes": 180,
+        "utilization_percent": 70.0
+      }
+    ],
+    "manual_route_indices": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      11,
+      9,
+      10,
+      8,
+      12,
+      0
+    ],
+    "manual_route_text": "D -> E -> G -> F6 -> F5 -> F4 -> F7 -> S -> J6 -> J1 -> J3 -> C -> K -> D",
+    "manual_route_distance_km": 165.97011188763523,
+    "manual_single_trip_feasible": true,
+    "improvement_percent": 13.045187257747608,
+    "runtime_seconds": 10.01214969996363,
+    "software": {
+      "python_version": "3.13.11",
+      "ortools_version": "9.15.6755",
+      "first_solution_strategy": "PATH_CHEAPEST_ARC",
+      "local_search_metaheuristic": "GUIDED_LOCAL_SEARCH"
+    }
+  },
+  {
+    "scenario": "buffered",
+    "status": "FEASIBLE",
+    "total_demand_boxes": 152,
+    "capacity_per_trip_boxes": 180,
+    "configured_trip_indices": 1,
+    "used_trips": 1,
+    "total_distance_km": 144.319,
+    "trips": [
+      {
+        "trip_id": 1,
+        "route_indices": [
+          0,
+          1,
+          2,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "E",
+          "G",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> E -> G -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D",
+        "distance_km": 144.319,
+        "load_boxes": 152,
+        "capacity_boxes": 180,
+        "utilization_percent": 84.44444444444444
+      }
+    ],
+    "manual_route_indices": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      11,
+      9,
+      10,
+      8,
+      12,
+      0
+    ],
+    "manual_route_text": "D -> E -> G -> F6 -> F5 -> F4 -> F7 -> S -> J6 -> J1 -> J3 -> C -> K -> D",
+    "manual_route_distance_km": 165.97011188763523,
+    "manual_single_trip_feasible": true,
+    "improvement_percent": 13.045187257747608,
+    "runtime_seconds": 10.00083400029689,
+    "software": {
+      "python_version": "3.13.11",
+      "ortools_version": "9.15.6755",
+      "first_solution_strategy": "PATH_CHEAPEST_ARC",
+      "local_search_metaheuristic": "GUIDED_LOCAL_SEARCH"
+    }
+  },
+  {
+    "scenario": "peak",
+    "status": "FEASIBLE",
+    "total_demand_boxes": 191,
+    "capacity_per_trip_boxes": 180,
+    "configured_trip_indices": 2,
+    "used_trips": 2,
+    "total_distance_km": 148.337,
+    "trips": [
+      {
+        "trip_id": 1,
+        "route_indices": [
+          0,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> F5 -> D",
+        "distance_km": 5.586,
+        "load_boxes": 18,
+        "capacity_boxes": 180,
+        "utilization_percent": 10.0
+      },
+      {
+        "trip_id": 2,
+        "route_indices": [
+          0,
+          2,
+          1,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          0
+        ],
+        "route_names": [
+          "D",
+          "G",
+          "E",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "D"
+        ],
+        "route_text": "D -> G -> E -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> D",
+        "distance_km": 142.751,
+        "load_boxes": 173,
+        "capacity_boxes": 180,
+        "utilization_percent": 96.11111111111111
+      }
+    ],
+    "manual_route_indices": [
+      0,
+      1,
+      2,
+      5,
+      4,
+      3,
+      6,
+      7,
+      11,
+      9,
+      10,
+      8,
+      12,
+      0
+    ],
+    "manual_route_text": "D -> E -> G -> F6 -> F5 -> F4 -> F7 -> S -> J6 -> J1 -> J3 -> C -> K -> D",
+    "manual_route_distance_km": 165.97011188763523,
+    "manual_single_trip_feasible": false,
+    "improvement_percent": null,
+    "runtime_seconds": 10.000064500141889,
+    "software": {
+      "python_version": "3.13.11",
+      "ortools_version": "9.15.6755",
+      "first_solution_strategy": "PATH_CHEAPEST_ARC",
+      "local_search_metaheuristic": "GUIDED_LOCAL_SEARCH"
+    }
+  }
+]

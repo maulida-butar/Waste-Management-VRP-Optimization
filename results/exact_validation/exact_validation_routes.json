@@ -1,0 +1,191 @@
+[
+  {
+    "scenario": "normal",
+    "exact_status": "EXACT_OPTIMUM",
+    "exact_method": "Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning",
+    "number_of_customers": 12,
+    "configured_trips": 1,
+    "total_demand_boxes": 126,
+    "exact_distance_m": 144319,
+    "exact_distance_km": 144.319,
+    "trips": [
+      {
+        "trip_id": 1,
+        "subset_mask": 4095,
+        "route_indices": [
+          0,
+          2,
+          1,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "G",
+          "E",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> G -> E -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D",
+        "distance_m": 144319,
+        "distance_km": 144.319,
+        "load_boxes": 126,
+        "capacity_boxes": 180,
+        "utilization_percent": 70.0
+      }
+    ],
+    "gls_best_distance_km": 144.319,
+    "optimality_gap_percent": 0.0,
+    "gls_matches_exact_optimum": true
+  },
+  {
+    "scenario": "buffered",
+    "exact_status": "EXACT_OPTIMUM",
+    "exact_method": "Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning",
+    "number_of_customers": 12,
+    "configured_trips": 1,
+    "total_demand_boxes": 152,
+    "exact_distance_m": 144319,
+    "exact_distance_km": 144.319,
+    "trips": [
+      {
+        "trip_id": 1,
+        "subset_mask": 4095,
+        "route_indices": [
+          0,
+          2,
+          1,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "G",
+          "E",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> G -> E -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> F5 -> D",
+        "distance_m": 144319,
+        "distance_km": 144.319,
+        "load_boxes": 152,
+        "capacity_boxes": 180,
+        "utilization_percent": 84.44444444444444
+      }
+    ],
+    "gls_best_distance_km": 144.319,
+    "optimality_gap_percent": 0.0,
+    "gls_matches_exact_optimum": true
+  },
+  {
+    "scenario": "peak",
+    "exact_status": "EXACT_OPTIMUM",
+    "exact_method": "Held-Karp dynamic programming with exhaustive capacity-feasible subset partitioning",
+    "number_of_customers": 12,
+    "configured_trips": 2,
+    "total_demand_boxes": 191,
+    "exact_distance_m": 148337,
+    "exact_distance_km": 148.337,
+    "trips": [
+      {
+        "trip_id": 1,
+        "subset_mask": 8,
+        "route_indices": [
+          0,
+          4,
+          0
+        ],
+        "route_names": [
+          "D",
+          "F5",
+          "D"
+        ],
+        "route_text": "D -> F5 -> D",
+        "distance_m": 5586,
+        "distance_km": 5.586,
+        "load_boxes": 18,
+        "capacity_boxes": 180,
+        "utilization_percent": 10.0
+      },
+      {
+        "trip_id": 2,
+        "subset_mask": 4087,
+        "route_indices": [
+          0,
+          2,
+          1,
+          5,
+          3,
+          6,
+          9,
+          10,
+          11,
+          8,
+          12,
+          7,
+          0
+        ],
+        "route_names": [
+          "D",
+          "G",
+          "E",
+          "F6",
+          "F4",
+          "F7",
+          "J1",
+          "J3",
+          "J6",
+          "C",
+          "K",
+          "S",
+          "D"
+        ],
+        "route_text": "D -> G -> E -> F6 -> F4 -> F7 -> J1 -> J3 -> J6 -> C -> K -> S -> D",
+        "distance_m": 142751,
+        "distance_km": 142.751,
+        "load_boxes": 173,
+        "capacity_boxes": 180,
+        "utilization_percent": 96.11111111111111
+      }
+    ],
+    "gls_best_distance_km": 148.337,
+    "optimality_gap_percent": 0.0,
+    "gls_matches_exact_optimum": true
+  }
+]
