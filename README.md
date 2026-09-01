@@ -14,10 +14,10 @@ The study models the multi-campus institutional waste collection network of Univ
 
 ```text
 ├── figures/
-│   ├── peak_route_interactive.html      # Interactive Map for the Peak (Multi-Trip) Scenario
-│   ├── peak_route_network_600dpi.png    # High-resolution static route map (600 DPI)
-│   ├── peak_route_network.pdf           # Vector PDF static map
-│   └── peak_route_geometry.geojson      # Exported route geometries
+│   ├── Figure 1      # Research framework
+│   ├── Figure 2      # Spatial distribution of waste collection nodes 
+│   ├── Figure 3      # Geospatial visualization of the optimized under the Normal scenario
+│   └── Figure 4      # Exact-optimal sequential route under the Peak-demand scenario
 ├── results/
 │   ├── road_distance/                   # Directed distance matrices, snapping audits, and metadata
 │   ├── gls_experiments/                 # 30-run repeatability summaries, run-level logs, and frequencies
